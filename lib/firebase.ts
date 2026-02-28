@@ -1,4 +1,4 @@
-import { initializeApp } from 'firebase/app';
+import { initializeApp, getApps } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 import { getStorage } from 'firebase/storage';
@@ -12,7 +12,9 @@ const firebaseConfig = {
   appId: "1:85063514125:android:7cd05a438d180901bfbd44"
 };
 
-const app = initializeApp(firebaseConfig);
+// Next.js에서는 중복 초기화 방지
+const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
+
 export const db = getFirestore(app);
 export const auth = getAuth(app);
 export const storage = getStorage(app);
