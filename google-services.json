@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "85063514125",
+    "project_id": "remnant-new",
+    "storage_bucket": "remnant-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85063514125:android:7cd05a438d180901bfbd44",
+        "android_client_info": {
+          "package_name": "com.mazei97.newremnant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85063514125-qujnnoemqhc0teccj06rc4658229skii.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mazei97.newremnant",
+            "certificate_hash": "745ee06fd6abeb7b46214e2b7e76ef3a8f50c7fe"
+          }
+        },
+        {
+          "client_id": "85063514125-md0fgk2f8p7d9htnqt1fi2rm37oebt8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr7hj5u9JXoI2rLZPtQ1068AUZS8O6jww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85063514125-md0fgk2f8p7d9htnqt1fi2rm37oebt8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
