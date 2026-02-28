@@ -1,0 +1,21 @@
+{
+  "short_name": "새친구관리",
+  "name": "교회 새친구 관리 앱",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#6200EE",
+  "background_color": "#ffffff",
+  "orientation": "portrait"
+}
